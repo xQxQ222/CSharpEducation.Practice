@@ -1,0 +1,2 @@
+# CSharpEducation.Practice
+Практика c#
