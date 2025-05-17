@@ -23,7 +23,7 @@
                 if (e.Equals(c))
                     counter++;
             }
-            double percentage = Math.Round(counter / str.Length,4)*100;
+            double percentage = Math.Round(counter / str.Length, 4) * 100;
             Console.WriteLine($"Строка: {str}\nСимвол: {c}");
             Console.WriteLine($"Процент попадания символа {c.ToString()} в строку: {percentage}%");
         }

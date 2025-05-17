@@ -14,7 +14,7 @@
             int[] a = new int[r.Next(1, 101)];
             for (int i = 0; i < a.Length; i++)
             {
-                a[i] = r.Next(1,101);
+                a[i] = r.Next(1, 101);
             }
             return a;
         }

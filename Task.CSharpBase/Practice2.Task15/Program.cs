@@ -12,7 +12,7 @@
             Array.Reverse(a);
             Console.WriteLine("Инвертированный массив:");
             PrintArray(a);
-            
+
         }
 
 
@@ -22,7 +22,7 @@
             Random r = new Random();
             for (int i = 0; i < length; i++)
             {
-                array[i] = r.Next(1,10);
+                array[i] = r.Next(1, 10);
             }
             return array;
         }

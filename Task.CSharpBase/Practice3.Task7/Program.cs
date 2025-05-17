@@ -1,13 +1,11 @@
-﻿using System.Globalization;
-
-namespace Practice3.Task7
+﻿namespace Practice3.Task7
 {
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine(GetDayCount(Months.Сентябрь));
-            
+
         }
 
         private static int GetDayCount(Months month)

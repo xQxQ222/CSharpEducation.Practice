@@ -19,7 +19,7 @@
             {
                 for (int j = 0; j < width; j++)
                 {
-                    array[i, j] = r.Next(1,10);
+                    array[i, j] = r.Next(1, 10);
                 }
             }
             return array;
@@ -27,11 +27,11 @@
 
         static void PrintArray(int[,] array)
         {
-            for(int i = 0;i < array.GetLength(0); i++)
+            for (int i = 0; i < array.GetLength(0); i++)
             {
-                for(int j=0;j< array.GetLength(1); j++)
+                for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    Console.Write(array[i,j] + " ");
+                    Console.Write(array[i, j] + " ");
                 }
                 Console.Write("\n");
             }

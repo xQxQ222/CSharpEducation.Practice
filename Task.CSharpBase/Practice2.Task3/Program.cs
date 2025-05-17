@@ -2,7 +2,7 @@
 {
     class Program
     {
-        static void Main(string[] args) 
+        static void Main(string[] args)
         {
             Console.Write("Введите значение переменной a: ");
             double a = double.Parse(Console.ReadLine());
@@ -14,9 +14,9 @@
             try
             {
                 result = (a + b - f / a) + f * a * a - (a + b);
-                Console.WriteLine($"Результат выражения: {Math.Round(result,3)}");
+                Console.WriteLine($"Результат выражения: {Math.Round(result, 3)}");
             }
-            catch(DivideByZeroException e)
+            catch (DivideByZeroException e)
             {
                 Console.WriteLine("Было деление на 0 :(");
             }

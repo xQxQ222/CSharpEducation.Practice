@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Practice3.Task11
+﻿namespace Practice3.Task11
 {
     class Book
     {
-        public string BookName {  get; private set; }
+        public string BookName { get; private set; }
         public string Author { get; private set; }
 
         public Book(string bookName, string author)

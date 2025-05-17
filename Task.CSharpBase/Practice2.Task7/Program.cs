@@ -16,9 +16,9 @@
             string[] strings = str.Split();
             for (int i = 0; i < strings.Length; i++)
             {
-                strings[i] = strings[i].Substring(0,1).ToUpper() + strings[i].Substring(1, strings[i].Length-1).ToLower();
+                strings[i] = strings[i].Substring(0, 1).ToUpper() + strings[i].Substring(1, strings[i].Length - 1).ToLower();
             }
-            return string.Join(' ',strings);
+            return string.Join(' ', strings);
         }
     }
 }

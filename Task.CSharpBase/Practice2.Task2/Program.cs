@@ -20,7 +20,7 @@
                     case "1":
                         Console.WriteLine("Введите длину в метрах");
                         float km = METRES_TO_KM_MULTIPLIER * float.Parse(Console.ReadLine());
-                        Console.WriteLine($"Длина в километрах: {Math.Round(km,2)} км.");
+                        Console.WriteLine($"Длина в километрах: {Math.Round(km, 2)} км.");
                         WaitAndClear();
                         break;
                     case "2":
@@ -51,7 +51,7 @@
 
                 }
             }
-            
+
         }
 
         private static void WaitAndClear()

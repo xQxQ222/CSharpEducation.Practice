@@ -9,14 +9,14 @@
             while (i < 3)
             {
                 Console.Write($"Введите {i + 1} число: ");
-                nums[i] = int.Parse( Console.ReadLine() );
+                nums[i] = int.Parse(Console.ReadLine());
                 i++;
             }
-            if(nums.Distinct().Count() >= 2)
+            if (nums.Distinct().Count() >= 2)
             {
-                foreach(var e in nums)
+                foreach (var e in nums)
                 {
-                    Console.WriteLine(e+5);
+                    Console.WriteLine(e + 5);
                 }
             }
         }

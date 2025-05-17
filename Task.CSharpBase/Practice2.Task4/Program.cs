@@ -36,6 +36,6 @@ namespace Practice2.Task4
                 i++;
             }
         }
-        
+
     }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Practice3.Task5
+﻿namespace Practice3.Task5
 {
     class Book
     {
@@ -20,7 +14,7 @@ namespace Practice3.Task5
         }
 
 
-        public Book(string bookName, string author): this(bookName, author, 2000) { }
+        public Book(string bookName, string author) : this(bookName, author, 2000) { }
 
         public Book(string bookName) : this(bookName, "Иванов И. И.", 2000) { }
 

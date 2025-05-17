@@ -1,5 +1,4 @@
-﻿using System;
-namespace Task.CsharpBase
+﻿namespace Task.CsharpBase
 {
     public class Program
     {

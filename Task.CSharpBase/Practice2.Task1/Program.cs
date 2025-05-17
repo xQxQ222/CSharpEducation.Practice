@@ -34,9 +34,9 @@ namespace Practice2.Task1
 
         public static void UserOutput(Random r)
         {
-            int commonCounterMax = r.Next(1,5);
+            int commonCounterMax = r.Next(1, 5);
             StringBuilder sb = new StringBuilder();
-            for(int i = 0; i<commonCounterMax; i++)
+            for (int i = 0; i < commonCounterMax; i++)
             {
                 Console.Write($"Введите {i + 1} слово: ");
                 sb.Append(Console.ReadLine());
@@ -65,7 +65,7 @@ namespace Practice2.Task1
                 whileCounter++;
             }
             while (whileCounter < commonCounterMax);
-            
+
             Console.WriteLine($"Целая фраза через do while: {sb.ToString()}");
             sb.Clear();
 
