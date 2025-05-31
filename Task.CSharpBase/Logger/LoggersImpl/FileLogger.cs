@@ -54,7 +54,7 @@ namespace Logger.LoggersImpl
         public void Log(string message, LogLevel logLevel)
         {
             CheckFileExists();
-            File.AppendAllText(_filePath, $"{DateTime.Now.ToString()} {this.GetType().Name}| {logLevel.ToString()} | {message}\n");
+            File.AppendAllText(_filePath, $"{DateTime.Now.ToString()} | {this.GetType().Name} | {logLevel.ToString()} | {message}\n");
         }
     }
 }
